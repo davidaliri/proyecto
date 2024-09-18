@@ -1,0 +1,73 @@
+* 
+{
+	margin: 0;
+	padding: 0;
+}
+
+body 
+{
+	background: rgb(9, 176, 182);
+}
+
+.caja 
+{
+	width: 80%;
+}
+
+.caja2 
+{
+	width: 30%;	
+}
+
+.caja2 p 
+{
+	display: inline-block;
+}
+
+.fecha 
+{
+	font-family: Arial;
+	text-align: center;
+	font-size: 1em;
+	margin-bottom: 1em;
+	background: white; 
+	border:2px solid black;	
+	padding: 20px;
+	width: 100%;
+	font-weight: bold;
+	border-radius:5px;
+		
+}
+
+.reloj2 
+{
+	font-weight: bold;
+	font-family: Arial;
+	width: 100%;
+	padding: 20px;
+	font-size: 2em;
+	text-align: center;
+	background: white;
+	border:2px solid black;
+	border-radius:5px;
+}
+/* Estilos específicos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+	.caja {
+		width: 100%;
+	}
+
+	.caja2 {
+		width: 100%;
+	}
+
+	.fecha {
+		font-size: 0.8em;
+		padding: 15px;
+	}
+
+	.reloj2 {
+		font-size: 1.5em;
+		padding: 15px;
+	}
+}
